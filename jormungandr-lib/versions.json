@@ -245,6 +245,10 @@
       "rev": "768639771cabf7d3bb4aac7ec4ffee8797292348",
       "sha256": "02xwdxmq32xwjszag8avpcdqakdhhy17mqqnngpn8f9viwbmhvf8",
       "cargoSha256": "1vjlijccaxibn5i56x74rjzbqfrwhl1aq7l8rp6linnkvh01jx15"
+    },
+    "v0_8_7": {
+      "version": "0.8.7",
+      "rev": "364cd84e9ffe0dc04c8a8c515da29820f20cc541"
     }
   }
 }
