@@ -299,6 +299,12 @@
       "rev": "6d21c828573b15172649e69cc89bea72f48ed177",
       "sha256": "06lrpwk653k8mgns9cip270iyarxfd8j1ny4qfrcfjmizm2d7yr2",
       "cargoSha256": "17nyp5gpzc0j7cgqx5y6lg8jlvr5ryh2qyxcg8xscg00yfdzawdp"
+    },
+    "v0_8_15": {
+      "version": "0.8.15",
+      "rev": "19f8eb49e15165e4a50a248e6a19221376f07cf6",
+      "sha256": "10s9hgdxpryplcwziaz7s4xdfw05i9aghp0hwhg1dig6rg61x4h6",
+      "cargoSha256": "1bw2laiandc013v8ad4lz59kgcbyj0wlg8f4zs7v75wr89sc4jsq"
     }
   }
 }
