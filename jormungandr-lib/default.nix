@@ -414,37 +414,30 @@ let
       trustedPeers = [
         {
           address = "/ip4/13.230.137.72/tcp/3000";
-          id = "fe3332044877b2034c8632a08f08ee47f3fbea6c64165b3b";
         }
         {
           address = "/ip4/13.230.48.191/tcp/3000";
-          id = "c38aabb936944776ef15bbe4b5b02454c46a8a80d871f873";
         }
         {
           address = "/ip4/18.196.168.220/tcp/3000";
-          id = "7e2222179e4f3622b31037ede70949d232536fdc244ca3d9";
         }
         {
           address = "/ip4/3.124.132.123/tcp/3000";
-          id = "9085fa5caeb39eace748a7613438bd2a62c8c8ee00040b71";
         }
         {
           address = "/ip4/18.184.181.30/tcp/3000";
-          id = "f131b71d65c49116f3c23c8f1dd7ceaa98f5962979133404";
         }
         {
           address = "/ip4/184.169.162.15/tcp/3000";
-          id = "fdb88d08c7c759b5d30e854492cb96f8203c2d875f6f3e00";
         }
         {
           address = "/ip4/52.52.67.33/tcp/3000";
-          id = "3d1f8891bf53eb2946a18fb46cf99309649f0163b4f71b34";
         }
       ];
     };
 
     qa = {
-      packages = packages.v0_8_17;
+      packages = packages.v0_9_0-rc1;
       genesisHash = "b5ada4577e10513240a5457490bd855c350b378fcd762d4354b443ba49b42dda";
       genesisFile = ./genesis-qa.yaml;
       registryUrl = "https://explorer.qa.jormungandr-testnet.iohkdev.io/stakepool-registry/registry.zip";
@@ -452,31 +445,24 @@ let
       trustedPeers = [
         {
           address = "/ip4/54.193.75.55/tcp/3000";
-          id = "a85bfdff5bd4ea55beac7d5644e71958db6cb2c6ec600553";
         }
         {
           address = "/ip4/13.57.122.88/tcp/3000";
-          id = "725ef9c3900a8bfb970d2dc403319f77b354806fa4a28158";
         }
         {
           address = "/ip4/13.52.228.233/tcp/3000";
-          id = "251ed5489e85503358e6fc9b6dec8cd01180444860d83d5a";
         }
         {
           address = "/ip4/3.115.220.90/tcp/3000";
-          id = "cede82e828ccd57ed5bd21c765680aa5177c3c744b2e5fb3";
         }
         {
           address = "/ip4/52.198.219.29/tcp/3000";
-          id = "a9005255e416b5b6050be795c5fc89d84c1612bfd9576809";
         }
         {
           address = "/ip4/3.124.136.155/tcp/3000";
-          id = "22075b4f1abaef6d42cbad8f6e9d6f8264cec1881e6c0b6f";
         }
         {
           address = "/ip4/3.120.96.219/tcp/3000";
-          id = "02c3c4398064548430bad21718599d10cb457d82a1b32ff5";
         }
       ];
     };
