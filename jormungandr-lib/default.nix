@@ -6,9 +6,9 @@ let
     master = {
       name = "jormungandr-master";
       version = "master";
-      rev = "cfd1006d56e0619d14e4dd575a0164e3b9897974";
-      sha256 = "1r7ijb1xhcpzj2vlz3a7ips08l2drlx0n7jr3qjv2718yhjzxq9n";
-      cargoSha256 = "0nsww7sjay64nwd5851dsjdknwz8cp4x003ivz0xjsw226hdb0jp";
+      rev = "a23d9323892ae1e70db1751cf1e2fcf3c8f160d3";
+      sha256 = "0mb5ljziyw3p37x2jr7fq1nmxmkqg96zfnxqmzz7hf433nac2qnm";
+      cargoSha256 = "0i1n5p3k5n9rhm62bbgxhi1q1x7nw5vbz868jfncay1mlindjlzv";
     };
 
     release = calculatedVersions.v0_8_9;
@@ -437,7 +437,7 @@ let
     };
 
     qa = {
-      packages = packages.v0_9_0-rc1;
+      packages = packages.master;
       genesisHash = "b5ada4577e10513240a5457490bd855c350b378fcd762d4354b443ba49b42dda";
       genesisFile = ./genesis-qa.yaml;
       registryUrl = "https://explorer.qa.jormungandr-testnet.iohkdev.io/stakepool-registry/registry.zip";
