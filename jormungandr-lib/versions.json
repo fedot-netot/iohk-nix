@@ -324,6 +324,12 @@
       "sha256": "0wz68n4kfkbivh6s4h72iajdksfzn8df3xb3ps73ikvww2xii2xc",
       "cargoSha256": "0i1n5p3k5n9rhm62bbgxhi1q1x7nw5vbz868jfncay1mlindjlzv"
     },
+    "v0_9_0-rc2": {
+      "version": "0.9.0-rc2",
+      "rev": "f11e8231e0a059680eebfc298965341738cf50ea",
+      "sha256": "088ck5wzcl8yjncyq2sfn6cw7gzb8syvpazaiqphz0afd37nhix1",
+      "cargoSha256": "18rrgybln7bq4iha464pj713gpkvw2fi4s9jix9la510hwrsv9qp"
+    },
     "v0_8_19": {
       "version": "0.8.19",
       "rev": "116507c4f80dfc0f957b4afbc8f0a7ef54964625",
