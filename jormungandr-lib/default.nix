@@ -146,7 +146,7 @@ let
 
   environments = {
     itn_rewards_v1 = {
-      packages = packages.v0_8_17;
+      packages = packages.v0_9_0;
       genesisHash = "8e4d2a343f3dcf9330ad9035b3e8d168e6728904262f2c434a4f8f934ec7b676";
       genesisFile = ./genesis-itn_rewards_v1.yaml;
       registryUrl = "https://github.com/cardano-foundation/incentivized-testnet-stake-poolregistry/archive/master.zip";
@@ -162,169 +162,128 @@ let
       trustedPeers = [
         {
           address = "/ip4/13.56.0.226/tcp/3000";
-          id = "7ddf203c86a012e8863ef19d96aabba23d2445c492d86267";
         }
         {
           address = "/ip4/54.183.149.167/tcp/3000";
-          id = "df02383863ae5e14fea5d51a092585da34e689a73f704613";
         }
         {
           address = "/ip4/52.9.77.197/tcp/3000";
-          id = "fcdf302895236d012635052725a0cdfc2e8ee394a1935b63";
         }
         {
           address = "/ip4/18.177.78.96/tcp/3000";
-          id = "fc89bff08ec4e054b4f03106f5312834abdf2fcb444610e9";
         }
         {
           address = "/ip4/3.115.154.161/tcp/3000";
-          id = "35bead7d45b3b8bda5e74aa12126d871069e7617b7f4fe62";
         }
         {
           address = "/ip4/18.182.115.51/tcp/3000";
-          id = "8529e334a39a5b6033b698be2040b1089d8f67e0102e2575";
         }
         {
           address = "/ip4/18.184.35.137/tcp/3000";
-          id = "06aa98b0ab6589f464d08911717115ef354161f0dc727858";
         }
         {
           address = "/ip4/3.125.31.84/tcp/3000";
-          id = "8f9ff09765684199b351d520defac463b1282a63d3cc99ca";
         }
         {
           address = "/ip4/3.125.183.71/tcp/3000";
-          id = "9d15a9e2f1336c7acda8ced34e929f697dc24ea0910c3e67";
         }
       ];
       daedalusPeers = [
         {
           address = "/ip4/172.31.46.19/tcp/1914";
-          id = "888888880000000000000000000000000000000000000001";
         }
         {
           address = "/ip4/172.31.46.19/tcp/1915";
-          id = "888888880000000000000000000000000000000000000002";
         }
         {
           address = "/ip4/52.9.132.248/tcp/3000";
-          id = "671a9e7a5c739532668511bea823f0f5c5557c99b813456c";
         }
         {
           address = "/ip4/52.8.15.52/tcp/3000";
-          id = "18bf81a75e5b15a49b843a66f61602e14d4261fb5595b5f5";
         }
         {
           address = "/ip4/52.53.96.239/tcp/3000";
-          id = "242de1b2966b81dd05a0fc8765574b1e5eb8252e97ade80f";
         }
         {
           address = "/ip4/18.144.131.59/tcp/3000";
-          id = "d9965986c5309911c117252874e41680f90c95ed22bbe286";
         }
         {
           address = "/ip4/13.52.165.138/tcp/3000";
-          id = "af79431d77a23da44d5e272f8967529c0b6d5c9268c436d8";
         }
         {
           address = "/ip4/18.144.107.207/tcp/3000";
-          id = "9a0bb93459881d7d8904a7417b6300b87e919d1ff019c7b2";
         }
         {
           address = "/ip4/13.114.196.228/tcp/3000";
-          id = "7e1020c2e2107a849a8353876d047085f475c9bc646e42e9";
         }
         {
           address = "/ip4/13.112.181.42/tcp/3000";
-          id = "52762c49a84699d43c96fdfe6de18079fb2512077d6aa5bc";
         }
         {
           address = "/ip4/54.65.218.102/tcp/3000";
-          id = "cea042779658095850c051e883690c3b2ff7a5d5c3d9f662";
         }
         {
           address = "/ip4/18.177.126.82/tcp/3000";
-          id = "7537e6aea50290d54590b003d264886a1751fe8f5977d771";
         }
         {
           address = "/ip4/18.178.219.241/tcp/3000";
-          id = "9f3292609c03eef46f94684f49529f2fc7da2939a178bbdc";
         }
         {
           address = "/ip4/3.113.238.195/tcp/3000";
-          id = "1a1316168fa2f1d694dfa5e17925cc11b94b942002df7fa2";
         }
         {
           address = "/ip4/3.125.75.156/tcp/3000";
-          id = "22fb117f9f72f38b21bca5c0f069766c0d4327925d967791";
         }
         {
           address = "/ip4/52.28.91.178/tcp/3000";
-          id = "23b3ca09c644fe8098f64c24d75d9f79c8e058642e63a28c";
         }
         {
           address = "/ip4/3.124.116.145/tcp/3000";
-          id = "99cb10f53185fbef110472d45a36082905ee12df8a049b74";
         }
         {
           address = "/ip4/3.126.150.188/tcp/3000";
-          id = "e1a000dae7605d9f1d60bc71f76816647bb768dcf69bee4a";
         }
         {
           address = "/ip4/3.126.223.169/tcp/3000";
-          id = "2482768d750bb53bd5c300154aeafd3681b1115c34344c41";
         }
         {
           address = "/ip4/3.126.223.253/tcp/3000";
-          id = "b43a4f5ba33d72b5afaababfce659f5bc377508b34c8be39";
         }
         {
           address = "/ip4/52.206.55.62/tcp/3000";
-          id = "1723626a4de177745ce08eeac07eb2e38c7f242f0c6022ff";
         }
         {
           address = "/ip4/52.206.218.41/tcp/3000";
-          id = "49be46e3dbda53110d3e33739ac32fa33fc818b77b4a8e1c";
         }
         {
           address = "/ip4/52.207.170.168/tcp/3000";
-          id = "744efd32219509e256a597faa4408b1bdf82b63dab356215";
         }
         {
           address = "/ip4/52.205.143.170/tcp/3000";
-          id = "74c8843260a9d245ec0bc3eeb9724163b58fb8363990f5eb";
         }
         {
           address = "/ip4/23.20.89.92/tcp/3000";
-          id = "89494006e5b1728a9bcc8c4aa9dd77adf8a833a043590f22";
         }
         {
           address = "/ip4/3.223.128.131/tcp/3000";
-          id = "fa899ef0b821c93a230fcbc6aae166d817e562767b6822cf";
         }
         {
           address = "/ip4/13.250.150.213/tcp/3000";
-          id = "0e94e5b313de8fe39e7d7280c26dbcab62f55902b2f60b73";
         }
         {
           address = "/ip4/18.140.83.189/tcp/3000";
-          id = "91d3343d2148241533e95d42fbda9d2ba837c60ae8b029b9";
         }
         {
           address = "/ip4/52.77.85.27/tcp/3000";
-          id = "cd6e0d70fe403e9265a60182df53ed0582e88112fb6a6282";
         }
         {
           address = "/ip4/18.139.40.249/tcp/3000";
-          id = "75a84b308757207d64537e7305490b065bfb824cad8cd77c";
         }
         {
           address = "/ip4/18.136.70.91/tcp/3000";
-          id = "8254c33b3d2b43999ce47e3576ecbd84463ed984d96554df";
         }
         {
           address = "/ip4/52.221.148.77/tcp/3000";
-          id = "472e79dcd34e6894e939c98b55b7677c0493e387fe46237f";
         }
       ];
     };
